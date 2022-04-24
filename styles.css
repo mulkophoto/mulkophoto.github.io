@@ -1,0 +1,109 @@
+BODY {
+margin: 20px;
+padding: 20px;
+background-color: #000000;
+}
+
+body, table {
+font-family: Verdana;
+font-size: 14px;
+color: #FFFFFF
+}
+
+header {
+font-size: 20px;
+color: red;
+text-decoration: none;
+border-bottom-style: dotted;
+border-width: 3px;
+width: 100%;
+padding: 10px;
+}	
+
+h1 {
+font-size: 20px;
+color: red;
+text-decoration: none;
+border-bottom-style: dotted;
+border-width: 3px;
+width: 100%;
+padding: 10px;
+}	
+
+
+p {
+font-size: 12px;
+text-decoration: none;
+background-color: #242322;
+border-style: solid;
+border-width: 2px;
+border-color: white;
+border-radius: 15px;
+width: 50%;
+padding: 25px;
+}
+
+ol {
+color: #b6db23;
+font-size: 18px;
+text-decoration: none;
+list-style-type: upper-alpha;
+}
+
+ul {
+color: #d823db;
+font-size: 18px;
+text-decoration: none;
+list-style-type: square;
+}
+
+div {
+text-align: center;
+color: white;
+font-size: 12px;
+border-style: dotted;
+border-color: yellow;
+border-width: 2px;
+border-radius: 50px;
+height: 50px;
+width: 50%;
+
+}
+
+
+
+a {
+color: #1E9CFE;
+text-decoration: none;
+border-style: dotted;
+border-width: 2px;
+padding: 3px;
+}
+a:visited {
+color: #1E9CFE;
+text-decoration: none;
+border-style: dotted;
+border-width: 2px;
+padding: 3px;
+}
+a:hover {
+color: #555555;
+text-decoration: underline;
+border-style: dotted;
+border-width: 2px;
+padding: 3px;
+}
+a:active {
+color: yellow;
+text-decoration: underline;
+border-style: dotted;
+border-width: 2px;
+padding: 3px;
+}
+a:focus {
+color: #FFFFFF;
+text-decoration: underline;
+border-style: dotted;
+border-width: 2px;
+padding: 3px;
+}

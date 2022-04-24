@@ -1,0 +1,170 @@
+body, html {
+    height: 100%;
+    /* background: url(/img/kuva2.JPG);
+    background-blend-mode: darken; */
+    background-color: #3d3d3d;
+    background-size: 100%;
+}
+
+body {
+font-weight: 200;
+font-size: 1rem;
+color: #ffffff;
+}
+
+.intro-left {
+    background: url(../img/kuva1mv.jpg);
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: white;
+
+}
+
+@media (max-width: 786px) {
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%
+    }
+}
+
+/* .nav-item {
+    background-color: rgb(173, 132, 184);
+    padding: 10px;
+} */
+
+/* .nav-link {
+    
+} */
+
+.nav-item {
+    color: #be8989;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    /* height: 10px; */
+    }
+    .nav-item a {
+    color: #ffffff;
+    background: none;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    /* height: 10px; */
+    }
+    .nav-item a:hover {
+    color: #ffffff;
+    background: #3d3d3d;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    /* height: 10px; */
+    }
+
+.linkki {
+    color: #ffffff;
+    font: 20px;
+    text-decoration: underline;
+    width: 100%;
+    /* height: 10px; */
+    }
+    .linkki a {
+    color: #ffffff;
+    background: none;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    /* height: 10px; */
+    }
+    .linkki a:hover {
+    color: #7e0c0c;
+    background: #af3838;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    /* height: 10px; */
+    }
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin: 1rem;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.quote{
+    float: right;
+
+}
+
+section {
+    margin: 5rem;
+    font-size: 1.2rem;
+}
+
+.card{
+    color: rgb(27, 27, 27);
+    /* background-image: url(../img_portfolio/051.jpg); */
+    /* background-color: #8d8d8d;
+    background-blend-mode: color-dodge; */
+    object-fit: contain;
+
+}
+
+.footer{
+    background-color: #383838;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+    height: 4rem;
+    margin: 0;
+}
+/* .card::before {    
+    content: "";
+    background-image: url(../img_portfolio/2020-07\ Konica\ Lexio\ 70\ Fuji\ C200\ Tervakoski\ Helsinki\ Savonlinna\ 023.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.kortti-linnki {
+    color: #be8989;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 10px;
+    }
+    .kortti-linnki a {
+    color: #ffffff;
+    background: none;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 10px;
+    }
+    .kortti-linnki a:hover {
+    color: #ff0000;
+    background: #787b7e;
+    font: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 10px;
+    } */
